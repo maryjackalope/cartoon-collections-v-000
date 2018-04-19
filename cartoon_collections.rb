@@ -1,6 +1,7 @@
 dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 assorted_words = ["two", "go", "industrious", "bop"]
+snacks = ["crackers", "gouda", "thyme"] 
 
 def roll_call_dwarves(array)
   i = 0 
@@ -30,7 +31,7 @@ def long_planeteer_calls(array)
   end 
 end
 
-snacks = ["crackers", "gouda", "thyme"] 
+long_planeteer_calls(assorted_words)
 
 def find_the_cheese(array)
     cheese_types = ["cheddar", "gouda", "camembert"]
